@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jacques+Francois+Shadow&family=Major+Mono+Display&display=swap');
+body{
+    font-family: "Major Mono Display,Jacques Francois Shadow,Abel";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-text{
+    font-family: "Abel";
+    color: black ;
+    text-align: center;
+    font-size: 20px; 
+}
+
+.header-item{
+    color: white;
+    font-family:"Jacques Francois Shadow" ;
+   font-size: 50px;
+}
+.header-img{
+    width: 680px;
+    height:167px ;
+    
+}
+.header-menu {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: #BC899F;
+    justify-content: space-between;
+    margin: 0;
+   
+}
+.section-products{
+    background-image: url("./img/heart.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 500px;
+    
+   
+}
+.card-image{
+    width: 300px;
+    height: 385px;
+    background-position: center;
+}
+.card-image-1{
+    width: 200px;
+    height: 285px;
+    background-position: bottom;
+}
+.card-image-2{
+    width: 200px;
+    height: 285px;
+    background-position:left ;
+}
+.card-image-3{
+    width: 200px;
+    height:285px;
+    background-position: center;
+}
+.section-card{
+    border-radius: 20px;
+    flex-basis: 300px;
+    margin: 0 auto;
+}
+.crown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-title{
+    font-family:"Major Mono Display";
+}
+.card-button{
+     width: 50px;
+    height:30px;
+    border-radius: 10px; 
+    background-color: lightcoral;  
+}
