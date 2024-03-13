@@ -46,20 +46,21 @@ body{
     background-position: center;
 }
 .card-image-1{
-    width: 200px;
-    height: 285px;
-    background-position: bottom;
-}
-.card-image-2{
-    width: 200px;
-    height: 285px;
-    background-position:left ;
-}
-.card-image-3{
-    width: 200px;
-    height:285px;
+    width: 300px;
+    height: 385px;
     background-position: center;
 }
+.card-image-2{
+    width: 300px;
+    height: 385px;
+    background-position: center;
+}
+.card-image-3{
+    width: 300px;
+    height: 385px;
+    background-position: center;
+}
+
 .section-card{
     border-radius: 20px;
     flex-basis: 300px;
@@ -75,8 +76,16 @@ body{
     font-family:"Major Mono Display";
 }
 .card-button{
-     width: 50px;
+    width: 50px;
     height:30px;
     border-radius: 10px; 
     background-color: lightcoral;  
+}
+.bracelet-button{
+    width: 100px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.149);
+    align-items: center;
+    justify-content: center;
 }
